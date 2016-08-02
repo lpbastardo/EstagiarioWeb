@@ -1,0 +1,104 @@
+﻿@model EstagiarioWeb.Models.Computer
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Computer</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Marcaplacamae)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Marcaplacamae)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.modeloplacamae)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.modeloplacamae)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.capacidaderam)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.capacidaderam)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.quantidaderam)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.quantidaderam)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.capacidadehd)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.capacidadehd)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.quantidadehd)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.quantidadehd)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.modelofone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.modelofone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.marcafone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.marcafone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.marcaprocessador)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.marcaprocessador)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.velocidadeprocessador)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.velocidadeprocessador)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

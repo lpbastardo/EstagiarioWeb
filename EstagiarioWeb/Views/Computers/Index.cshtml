@@ -1,0 +1,87 @@
+﻿@model IEnumerable<EstagiarioWeb.Models.Computer>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Marcaplacamae)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.modeloplacamae)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.capacidaderam)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.quantidaderam)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.capacidadehd)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.quantidadehd)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.modelofone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.marcafone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.marcaprocessador)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.velocidadeprocessador)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Marcaplacamae)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.modeloplacamae)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.capacidaderam)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.quantidaderam)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.capacidadehd)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.quantidadehd)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.modelofone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.marcafone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.marcaprocessador)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.velocidadeprocessador)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>
