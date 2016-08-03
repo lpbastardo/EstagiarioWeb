@@ -47,7 +47,7 @@ namespace EstagiarioWeb.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Marcaplacamae,modeloplacamae,capacidaderam,quantidaderam,capacidadehd,quantidadehd,modelofone,marcafone,marcaprocessador,velocidadeprocessador")] Computer computer)
+        public ActionResult Create([Bind(Include = "Id,Computador,Marcaplacamae,modeloplacamae,capacidaderam,quantidaderam,capacidadehd,quantidadehd,modelofone,marcafone,marcaprocessador,velocidadeprocessador")] Computer computer)
         {
             if (ModelState.IsValid)
             {
@@ -79,7 +79,7 @@ namespace EstagiarioWeb.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Marcaplacamae,modeloplacamae,capacidaderam,quantidaderam,capacidadehd,quantidadehd,modelofone,marcafone,marcaprocessador,velocidadeprocessador")] Computer computer)
+        public ActionResult Edit([Bind(Include = "Id,Computador,Marcaplacamae,modeloplacamae,capacidaderam,quantidaderam,capacidadehd,quantidadehd,modelofone,marcafone,marcaprocessador,velocidadeprocessador")] Computer computer)
         {
             if (ModelState.IsValid)
             {

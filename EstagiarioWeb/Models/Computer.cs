@@ -9,9 +9,12 @@ namespace EstagiarioWeb.Models
     public class Computer
     {
         public int Id { get; set; }
+
+        [Display(Name = "Nome do Computador: ")]
+        public string Computador { get; set; }
         [Display(Name = "Marca da placa Mãe: ")]
         public string Marcaplacamae { get; set; }
-        [Display(Name = "Marca da placa Mãe: ")]
+        [Display(Name = "Modelo da placa Mãe: ")]
         public string modeloplacamae { get; set; }
 
         [Display(Name = "Marca de Ram: ")]
