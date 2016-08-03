@@ -80,3 +80,5 @@ C:\Users\LEANDRO PEREIRA\Documents\Visual Studio 2015\Projects\EstagiarioWeb\Est
 C:\Users\LEANDRO PEREIRA\Documents\Visual Studio 2015\Projects\EstagiarioWeb\EstagiarioWeb\obj\Debug\EstagiarioWeb.csprojResolveAssemblyReference.cache
 C:\Users\LEANDRO PEREIRA\Documents\Visual Studio 2015\Projects\EstagiarioWeb\EstagiarioWeb\obj\Debug\EstagiarioWeb.dll
 C:\Users\LEANDRO PEREIRA\Documents\Visual Studio 2015\Projects\EstagiarioWeb\EstagiarioWeb\obj\Debug\EstagiarioWeb.pdb
+C:\Users\LEANDRO PEREIRA\Documents\Visual Studio 2015\Projects\EstagiarioWeb\EstagiarioWeb\obj\Debug\EstagiarioWeb.Migrations._0.resources
+C:\Users\LEANDRO PEREIRA\Documents\Visual Studio 2015\Projects\EstagiarioWeb\EstagiarioWeb\obj\Debug\EstagiarioWeb.csproj.GenerateResource.Cache
