@@ -44,7 +44,6 @@ namespace EstagiarioWeb.Controllers
 
         // POST: Computers/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "Id,Computador,Marcaplacamae,modeloplacamae,capacidaderam,quantidaderam,capacidadehd,quantidadehd,modelofone,marcafone,marcaprocessador,velocidadeprocessador")] Computer computer)
@@ -76,7 +75,6 @@ namespace EstagiarioWeb.Controllers
 
         // POST: Computers/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "Id,Computador,Marcaplacamae,modeloplacamae,capacidaderam,quantidaderam,capacidadehd,quantidadehd,modelofone,marcafone,marcaprocessador,velocidadeprocessador")] Computer computer)
